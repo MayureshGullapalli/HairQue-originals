@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Hairque",
+    "slug": "hairque",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-ios.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.noonecantouch.hairque",
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-android.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "NOTIFICATIONS"
+      ],
+      "package": "com.noonecantouch.hairque",
+      "useNextNotificationsApi": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c00a5fb1-cd28-4103-bb16-134660a3a123"
+      }
+    },
+    "notification": {
+      "icon": "./assets/H.png",
+      "presentation": {
+        "present": true
+      }
+    }
+  }
+}
